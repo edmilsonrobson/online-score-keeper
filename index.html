@@ -1,0 +1,83 @@
+<!doctype html>
+
+<html>
+    <head>
+        <title>Page Title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+
+    </head>
+
+    <body>
+        <!--
+<div class="container main">
+<button class="btn btn-primary">Toggle Background Color</button>
+</div>
+-->
+        <div class="container main">
+            <h1>Online Score Tracker</h1>
+            <div class="row main-column1">
+                <form class="score-tracker-form">
+                    <div class="col-xs-3 col-xs-offset-2">
+                        <div class="form-group">
+                            <label>Player 1 Name</label>
+                            <input type="text" class="form-control" id="p1-name-input" required>
+                        </div>
+                    </div>
+                    <div class="col-xs-3 col-xs-offset-2">
+                        <div class="form-group">
+                            <label>Player 2 Name</label>
+                            <input type="text" class="form-control" id="p2-name-input" required>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-3 col-xs-offset-2">
+                        <div class="form-group">
+                            <label for="maxscore">Max Score:</label>
+                            <input type="number" maxlength="99" class="form-control max-score-field" placeholder="e.g 2" id="max-score-input" required>
+                        </div>
+                    </div>
+                    <div class="col-xs-2 col-xs-offset-4">
+                        <button class="btn btn-primary ok-button" type=submit>OK</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="row main-column2 invisible">
+                <div class="col-xs-6">
+                    <h2 id="p1-score-text">-P1 Name-: 5</h2>
+                </div>
+                <div class="col-xs-6">
+                    <h2 id="p2-score-text">-P2 Name-: 5</h2>
+                </div>
+
+                <div class="col-xs-6">
+                    <a class="btn btn-success btn-lg" id="p1-add-score">+1</a>
+                </div>
+                <div class="col-xs-6">
+                    <a class="btn btn-success btn-lg" id="p2-add-score">+1</a>
+                </div>
+                 <div class="col-xs-12">
+                    <h2 id="max-score-text">Max Score: 5</h2>
+                </div>
+                 <div class="col-xs-12">
+                    <a class="btn btn-danger btn-lg" id="reset-button">RESET</a>
+                </div>
+            </div>
+
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="crossorigin="anonymous"></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="https://use.fontawesome.com/102d42ffaa.js"></script>
+
+        <script src="script.js"></script>
+    </body>
+</html>

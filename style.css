@@ -1,0 +1,29 @@
+.main-column1, .main-column2{
+    text-align: center;
+}
+
+.invisible{
+    display:none;
+}
+.main h1{
+    text-align: center;
+}
+
+.max-score-field{
+    width: 33%;
+}
+
+.green-text{
+    color: green;
+}
+
+.hard-text{
+    font-weight: 700;
+}
+
+.container{
+    background-color: rgba(240,240,240,1);
+    border-radius: 20px;
+
+    padding: 20px;
+}
